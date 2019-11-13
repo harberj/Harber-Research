@@ -1,0 +1,40 @@
+For US Census Bureau:
+Go to https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_5YR_DP03&prodType=table
+Click "Advanced Search" then "Show me all"
+
+For Topics, click "Dataset", then "2017 ACS 5-year estimates"
+
+For Geographies, click "County", then add to your selection "All Counties within United States"
+After that, type in "DP03" into the "topic or table name"
+
+Click on "Selected Economic Characteristics" (It may take a little while to load)
+
+Now, download the data file. This will give you a folder with 4 documents in it. Choose the document titled "ACS_17_5YR_DP03_with_ann" 
+which will also be the largest file on the record. I have renamed it as "countyinfo"
+
+(Note: We have to drop the first row of observations in order to import this into Stata)
+
+*******************************************************************************************************************************************
+For US Zipcode to County State to FIPS Look Up
+Go to https://data.world/niccolley/us-zipcode-to-county-state
+
+Download datasets
+
+Save zip_county_fips_2017_03 as "zipstofips"
+
+*******************************************************************************************************************************************
+For Detailed University Information:
+Go to https://www.kaggle.com/theriley106/university-statistics/data
+This is the 2018 Rankings by USA Today on Universities
+
+Download the java script file and import it into Excel.
+I renamed the file "schoolinfo"
+
+*******************************************************************************************************************************************
+For University Salary Information:
+Go to https://www.kaggle.com/wsj/college-salaries/download
+Download the Excel file
+I renamed the file "schoolregion"
+
+
+ 
